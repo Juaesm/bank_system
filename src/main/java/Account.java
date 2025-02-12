@@ -35,7 +35,7 @@ public class Account {
     @Override
     public String toString()
     {
-        return "Cliente: " + client.getName() + " " + client.getLast_name() + " - " + "$ " + this.amount;
+        return "Client: " + client.getName() + " " + client.getLast_name() + " - " + "$ " + this.amount;
     }
 
 
